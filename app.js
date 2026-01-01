@@ -1,4 +1,4 @@
-const API_URL = "https://notes-api-1-jylm.onrender.com/notes";
+const API = "https://notes-api-1-jylm.onrender.com/notes";
 
 let currentCourse = null;
 let currentTopic = null;
