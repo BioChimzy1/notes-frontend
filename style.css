@@ -1,31 +1,15 @@
 body {
-  font-family: Arial, sans-serif;
-  max-width: 500px;
-  margin: 30px auto;
+  font-family: Arial;
+  max-width: 800px;
+  margin: auto;
 }
-
-h1 {
-  text-align: center;
-}
-
-.form input,
-.form textarea,
-.form button {
+textarea {
   width: 100%;
-  margin-bottom: 10px;
-  padding: 8px;
+  height: 200px;
 }
-
-.form button {
-  background: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
+button {
+  margin: 5px 0;
 }
-
-li {
-  background: #f1f1f1;
-  padding: 10px;
-  margin-bottom: 5px;
-  list-style: none;
+.completed {
+  text-decoration: line-through;
 }
