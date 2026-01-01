@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <title>Notes App</title>
-  <link rel="stylesheet" href="./style.css" />
+  <title>OSSU Study Tracker</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-  <h1>My Notes</h1>
+<h1>OSSU Study Tracker</h1>
 
-  <div class="form">
-    <input id="title" placeholder="Title" />
-    <textarea id="body" placeholder="Write your note..."></textarea>
-    <button onclick="addNote()">Add Note</button>
-  </div>
+<section>
+  <input id="courseTitle" placeholder="New Course Title">
+  <button onclick="createCourse()">Start Course</button>
+</section>
 
-  <ul id="notes"></ul>
+<h2 id="courseName"></h2>
+<p id="progress"></p>
 
-  <script src="./app.js"></script>
+<section>
+  <input id="topicTitle" placeholder="New Topic">
+  <button onclick="addTopic()">Add Topic</button>
+</section>
+
+<ul id="topics"></ul>
+
+<textarea id="note" placeholder="Write markdown notes here..."></textarea>
+<button onclick="saveNote()">Save Note</button>
+
+<script src="./app.js"></script>
 </body>
 </html>
